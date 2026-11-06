@@ -1,170 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dairy Consulting – Excellence in Dairy</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f32">
+  <meta name="description" content="Asha Dairy Consulting offers practical, farm-focused guidance for dairy farmers and dairy businesses in Pune and Maharashtra.">
+  <title>Asha Dairy Consulting | Better Dairy. Better Decisions.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600%7CRoboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Asha Dairy Consulting home"><span class="brand-mark">A</span><span>Asha <b>Dairy Consulting</b></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="resources.html">Knowledge Centre</a><a class="nav-cta" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="logo">Dairy<span>Consulting</span></div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <a href="contact.html" class="cta-button">Get Started</a>
-  </nav>
-
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Strategic <span class="highlight">Dairy</span> Consulting</h1>
-      <p>We help dairy farms, co‑ops and agribusinesses optimise production, reduce costs and meet market demands with data‑driven solutions.</p>
-      <a href="services.html" class="btn-primary">Our Services</a>
-    </div>
-    <div class="hero-image">
-      <svg viewBox="0 0 200 200" class="hero-svg">
-        <path d="M100 10 C70 150,130 150,100 10 Z" fill="#88c0d0"/>
-        <circle cx="100" cy="100" r="80" fill="none" stroke="#5a9fd8" stroke-width="2"/>
-        <path d="M100 100 Q150 60 200 100 Q150 140 100 100 Z" fill="#7fb3d9"/>
-      </svg>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-img">
-        <svg viewBox="0 0 400 300" class="about-svg">
-          <rect width="400" height="300" fill="#e8f4f8"/>
-          <circle cx="200" cy="150" r="80" fill="none" stroke="#5a9fd8" stroke-width="3"/>
-          <path d="M200 150 L100 250 L300 250 Z" fill="#7fb3d9"/>
-          <text x="200" y="150" text-anchor="middle" font-family="Playfair Display, serif" font-size="40" fill="#333">Dairy</text>
-          <text x="200" y="180" text-anchor="middle" font-family="Roboto, sans-serif" font-size="20" fill="#555">Consulting</text>
-        </svg>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> PRACTICAL DAIRY CONSULTING · PUNE, MAHARASHTRA</p>
+        <h1>Better dairy.<br><em>Better decisions.</em></h1>
+        <p class="hero-intro">Clear, practical guidance for dairy farmers and dairy businesses. Start with your farm, understand the challenges and explore improvements that make sense for your operation.</p>
+        <div class="hero-actions"><a class="button button-primary" href="contact.html">Discuss your farm <span aria-hidden="true">→</span></a><a class="text-link" href="services.html">Explore consulting areas <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>Grounded in your farm’s realities. Focused on practical next steps.</span></div>
       </div>
-      <div class="about-text">
-        <h2>About Us</h2>
-        <p>Founded by dairy industry veterans, our mission is to modernise dairy operations through technology, sustainability and expert guidance. We combine decades of hands‑on farm experience with the latest analytics to deliver measurable results.</p>
-        <ul>
-          <li><strong>15+</strong> years of collective experience</li>
-          <li><strong>300+</strong> farms assessed</li>
-          <li><strong>95%</strong> client satisfaction rate</li>
-        </ul>
-        <a href="contact.html" class="btn-secondary">Let's Talk</a>
+      <div class="hero-visual" role="img" aria-label="Dairy cows in a green rural landscape">
+        <div class="visual-label"><span class="label-dot"></span> FARM-FIRST THINKING</div>
+        <div class="visual-caption"><strong>Understand first.</strong><br>Recommend what fits.</div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services -->
-  <section class="services" id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <p>Tailored consulting packages designed for every scale of dairy operation.</p>
-      <div class="services-grid">
-        <div class="service-card">
-          <span class="icon">📊</span>
-          <h3>Production Optimisation</h3>
-          <p>Data‑driven herd management, feeding strategies and milk‑yield analysis to boost output.</p>
-        </div>
-        <div class="service-card">
-          <span class="icon">💧</span>
-          <h3>Sustainability & Waste</h3>
-          <p>Environmental impact assessments, nutrient management and renewable energy integration.</p>
-        </div>
-        <div class="service-card">
-          <span class="icon">💰</span>
-          <h3>Financial Planning</h3>
-          <p>Cost‑structure modelling, profitability forecasting and investment analysis.</p>
-        </div>
-        <div class="service-card">
-          <span class="icon">🤝</span>
-          <h3>Market Access</h3>
-          <p>Brand positioning, buyer outreach and certification support (organic, A2, etc.).</p>
-        </div>
+    <section class="intro-strip">
+      <p>Good dairy decisions start with the right questions.</p><span>Farm operations&nbsp; · &nbsp;Productivity&nbsp; · &nbsp;Costs&nbsp; · &nbsp;Growth</span>
+    </section>
+
+    <section class="section section-light">
+      <div class="section-heading">
+        <div><p class="eyebrow">HOW WE CAN HELP</p><h2>Make your next dairy decision<br><em>with more clarity.</em></h2></div>
+        <p class="section-lead">Every dairy operation is different. The right approach depends on your animals, facilities, people, costs and goals—not a one-size-fits-all checklist.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- Resources -->
-  <section class="resources" id="resources">
-    <div class="container">
-      <h2>Resources</h2>
-      <p>Free guides, templates and the latest dairy‑industry insights.</p>
-      <div class="resources-grid">
-        <article class="resource-card">
-          <h3>Monthly Dairy Outlook</h3>
-          <p>A concise market & price report delivered to your inbox.</p>
-          <a href="#" class="resource-link">Subscribe</a>
-        </article>
-        <article class="resource-card">
-          <h3>Farm Audit Checklist</h3>
-          <p>Printable PDF to assess herd health, infrastructure and compliance.</p>
-          <a href="#" class="resource-link">Download</a>
-        </article>
-        <article class="resource-card">
-          <h3>Regulatory Compliance Guide</h3>
-          <p>Step‑by‑step guide to local and national dairy regulations.</p>
-          <a href="#" class="resource-link">Read</a>
-        </article>
+      <div class="service-preview">
+        <a class="preview-card" href="services.html"><span class="card-number">01</span><span class="card-icon">⌂</span><h3>Farm operations</h3><p>Review day-to-day processes, identify bottlenecks and prioritise practical improvements.</p><span class="card-arrow">↗</span></a>
+        <a class="preview-card" href="services.html"><span class="card-number">02</span><span class="card-icon">✳</span><h3>Herd & productivity</h3><p>Discuss herd management, milk production and the factors affecting performance.</p><span class="card-arrow">↗</span></a>
+        <a class="preview-card" href="services.html"><span class="card-number">03</span><span class="card-icon">₹</span><h3>Costs & planning</h3><p>Understand key operating costs and assess options before making investments.</p><span class="card-arrow">↗</span></a>
+        <a class="preview-card" href="services.html"><span class="card-number">04</span><span class="card-icon">↗</span><h3>Setup & growth</h3><p>Think through requirements and trade-offs when planning a new or expanding dairy.</p><span class="card-arrow">↗</span></a>
       </div>
-    </div>
-  </section>
+      <p class="small-print">The exact scope of support is agreed after an initial discussion and depends on the consultant’s relevant experience. Veterinary diagnosis and treatment should be handled by a registered veterinarian.</p>
+    </section>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required placeholder="Your name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="you@example.com">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
-        </div>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-      <div class="contact-info">
-        <h3>Location</h3>
-        <p>123 Dairy Lane, Agri‑City</p>
-        <a href="https://www.google.com/maps/search/?api=1&query=123+Dairy+Lane,+Agri-City" target="_blank" class="link">View on Map</a>
-        <h3>Phone</h3>
-        <p>+1‑555‑123‑4567</p>
-        <h3>Email</h3>
-        <p>info@dairyconsulting.example</p>
-      </div>
-    </div>
-  </section>
+    <section class="split-section">
+      <div class="split-image" role="img" aria-label="Dairy farm and cattle"></div>
+      <div class="split-copy"><p class="eyebrow">A CONVERSATION, NOT A SALES PITCH</p><h2>Start with the challenge<br><em>you’re facing.</em></h2><p>Whether you are planning a dairy, reviewing an existing operation or trying to understand where costs are rising, the first step is a straightforward conversation about your situation.</p><ol class="steps"><li><span>01</span><div><b>Tell us about your farm</b><small>Your current setup, goals and main concerns.</small></div></li><li><span>02</span><div><b>Understand the options</b><small>Discuss what may be practical for your circumstances.</small></div></li><li><span>03</span><div><b>Agree the next step</b><small>Decide whether further consulting support is a good fit.</small></div></li></ol><a class="button button-dark" href="contact.html">Get in touch <span aria-hidden="true">→</span></a></div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Dairy Consulting. All rights reserved.</p>
-      <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </footer>
+    <section class="profile-band"><div><p class="eyebrow">MEET THE CONSULTANT</p><h2>Shreekeshwar Singh</h2><p>Connect with the consultant and view his professional background on LinkedIn.</p></div><a class="button button-outline" href="https://in.linkedin.com/in/shreekeshwar-singh-71535311b" target="_blank" rel="noopener noreferrer">View LinkedIn profile <span aria-hidden="true">↗</span></a></section>
 
+    <section class="final-cta"><p class="eyebrow">YOUR FARM. YOUR QUESTIONS. A PRACTICAL WAY FORWARD.</p><h2>Let’s talk about<br><em>what you want to improve.</em></h2><a class="button button-primary" href="contact.html">Start a conversation <span aria-hidden="true">→</span></a></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">A</span><span>Asha <b>Dairy Consulting</b></span></a><p>Practical dairy consulting · Pune, Maharashtra</p><div class="footer-bottom"><span>© <span data-year></span> Asha Dairy Consulting</span><div><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
