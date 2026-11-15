@@ -6,18 +6,61 @@
   <meta name="theme-color" content="#173f32">
   <meta name="description" content="Asha Dairy Consulting offers practical, farm-focused guidance for dairy farmers and dairy businesses in Pune and Maharashtra.">
   <title>Asha Dairy Consulting | Better Dairy. Better Decisions.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://dairy-website-nine.vercel.app/">
+  <meta property="og:site_name" content="Asha Dairy Consulting">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Asha Dairy Consulting | Better Dairy. Better Decisions.">
+  <meta property="og:description" content="Asha Dairy Consulting offers practical, farm-focused guidance for dairy farmers and dairy businesses in Pune and Maharashtra.">
+  <meta property="og:url" content="https://dairy-website-nine.vercel.app/">
+  <meta property="og:image" content="https://dairy-website-nine.vercel.app/images/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Asha Dairy Consulting. Practical dairy consulting in Pune, Maharashtra.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Asha Dairy Consulting | Better Dairy. Better Decisions.">
+  <meta name="twitter:description" content="Asha Dairy Consulting offers practical, farm-focused guidance for dairy farmers and dairy businesses in Pune and Maharashtra.">
+  <meta name="twitter:image" content="https://dairy-website-nine.vercel.app/images/og-cover.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" href="images/cows-sunset-1280.webp" imagesrcset="images/cows-sunset-720.webp 720w, images/cows-sunset-1280.webp 1280w" imagesizes="(max-width: 680px) 100vw, 46vw">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Asha Dairy Consulting",
+    "description": "Asha Dairy Consulting offers practical, farm-focused guidance for dairy farmers and dairy businesses in Pune and Maharashtra.",
+    "url": "https://dairy-website-nine.vercel.app/",
+    "image": "https://dairy-website-nine.vercel.app/images/og-cover.png",
+    "areaServed": ["Pune", "Maharashtra"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Shreekeshwar Singh",
+      "sameAs": "https://in.linkedin.com/in/shreekeshwar-singh-71535311b"
+    }
+  }
+  </script>
 </head>
 <body>
+  <!-- Illustrative photos under the Unsplash License, not photographs of a client farm.
+       Sunset herd: images.unsplash.com/photo-1500595046743-cd271d694d30
+       Pasture cow: images.unsplash.com/photo-1570042225831-d98fa7577f1e -->
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Asha Dairy Consulting home"><span class="brand-mark">A</span><span>Asha <b>Dairy Consulting</b></span></a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <a class="brand" href="index.html" aria-label="Asha Dairy Consulting home"><span class="brand-mark" aria-hidden="true">A</span><span>Asha <b>Dairy Consulting</b></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
     <nav class="nav" id="primary-nav" aria-label="Main navigation">
-      <a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="resources.html">Knowledge Centre</a><a class="nav-cta" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
+      <a class="active" href="index.html" aria-current="page">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="resources.html">Knowledge Centre</a><a class="nav-cta" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
@@ -28,10 +71,15 @@
         <h1>Better dairy.<br><em>Better decisions.</em></h1>
         <p class="hero-intro">Clear, practical guidance for dairy farmers and dairy businesses. Start with your farm, understand the challenges and explore improvements that make sense for your operation.</p>
         <div class="hero-actions"><a class="button button-primary" href="contact.html">Discuss your farm <span aria-hidden="true">→</span></a><a class="text-link" href="services.html">Explore consulting areas <span aria-hidden="true">↗</span></a></div>
-        <div class="hero-note"><span class="note-icon">✳</span><span>Grounded in your farm’s realities. Focused on practical next steps.</span></div>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>Grounded in your farm’s realities. Focused on practical next steps.</span></div>
       </div>
-      <div class="hero-visual" role="img" aria-label="Dairy cows in a green rural landscape">
-        <div class="visual-label"><span class="label-dot"></span> FARM-FIRST THINKING</div>
+      <div class="hero-visual">
+        <picture>
+          <source type="image/webp" srcset="images/cows-sunset-720.webp 720w, images/cows-sunset-1280.webp 1280w" sizes="(max-width: 680px) 100vw, 46vw">
+          <img class="cover-photo" src="images/cows-sunset-1280.jpg" srcset="images/cows-sunset-720.jpg 720w, images/cows-sunset-1280.jpg 1280w" sizes="(max-width: 680px) 100vw, 46vw" alt="Dairy cows in a pasture at sunset, with a black-and-white cow in the foreground" width="1280" height="850" fetchpriority="high" decoding="async">
+        </picture>
+        <div class="visual-shade" aria-hidden="true"></div>
+        <div class="visual-label"><span class="label-dot" aria-hidden="true"></span> FARM-FIRST THINKING</div>
         <div class="visual-caption"><strong>Understand first.</strong><br>Recommend what fits.</div>
       </div>
     </section>
@@ -46,25 +94,31 @@
         <p class="section-lead">Every dairy operation is different. The right approach depends on your animals, facilities, people, costs and goals—not a one-size-fits-all checklist.</p>
       </div>
       <div class="service-preview">
-        <a class="preview-card" href="services.html"><span class="card-number">01</span><span class="card-icon">⌂</span><h3>Farm operations</h3><p>Review day-to-day processes, identify bottlenecks and prioritise practical improvements.</p><span class="card-arrow">↗</span></a>
-        <a class="preview-card" href="services.html"><span class="card-number">02</span><span class="card-icon">✳</span><h3>Herd & productivity</h3><p>Discuss herd management, milk production and the factors affecting performance.</p><span class="card-arrow">↗</span></a>
-        <a class="preview-card" href="services.html"><span class="card-number">03</span><span class="card-icon">₹</span><h3>Costs & planning</h3><p>Understand key operating costs and assess options before making investments.</p><span class="card-arrow">↗</span></a>
-        <a class="preview-card" href="services.html"><span class="card-number">04</span><span class="card-icon">↗</span><h3>Setup & growth</h3><p>Think through requirements and trade-offs when planning a new or expanding dairy.</p><span class="card-arrow">↗</span></a>
+        <a class="preview-card" href="services.html#farm-operations"><span class="card-number">01</span><span class="card-icon" aria-hidden="true">⌂</span><h3>Farm operations</h3><p>Review day-to-day processes, identify bottlenecks and prioritise practical improvements.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+        <a class="preview-card" href="services.html#herd-productivity"><span class="card-number">02</span><span class="card-icon" aria-hidden="true">✳</span><h3>Herd &amp; productivity</h3><p>Discuss herd management, milk production and the factors affecting performance.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+        <a class="preview-card" href="services.html#costs-planning"><span class="card-number">03</span><span class="card-icon" aria-hidden="true">₹</span><h3>Costs &amp; planning</h3><p>Understand key operating costs and assess options before making investments.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+        <a class="preview-card" href="services.html#setup-growth"><span class="card-number">04</span><span class="card-icon" aria-hidden="true">↗</span><h3>Setup &amp; growth</h3><p>Think through requirements and trade-offs when planning a new or expanding dairy.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
       </div>
       <p class="small-print">The exact scope of support is agreed after an initial discussion and depends on the consultant’s relevant experience. Veterinary diagnosis and treatment should be handled by a registered veterinarian.</p>
     </section>
 
     <section class="split-section">
-      <div class="split-image" role="img" aria-label="Dairy farm and cattle"></div>
-      <div class="split-copy"><p class="eyebrow">A CONVERSATION, NOT A SALES PITCH</p><h2>Start with the challenge<br><em>you’re facing.</em></h2><p>Whether you are planning a dairy, reviewing an existing operation or trying to understand where costs are rising, the first step is a straightforward conversation about your situation.</p><ol class="steps"><li><span>01</span><div><b>Tell us about your farm</b><small>Your current setup, goals and main concerns.</small></div></li><li><span>02</span><div><b>Understand the options</b><small>Discuss what may be practical for your circumstances.</small></div></li><li><span>03</span><div><b>Agree the next step</b><small>Decide whether further consulting support is a good fit.</small></div></li></ol><a class="button button-dark" href="contact.html">Get in touch <span aria-hidden="true">→</span></a></div>
+      <div class="split-image">
+        <picture>
+          <source type="image/webp" srcset="images/cow-pasture-720.webp 720w, images/cow-pasture-1280.webp 1280w" sizes="(max-width: 680px) 100vw, 50vw">
+          <img class="cover-photo" src="images/cow-pasture-1280.jpg" srcset="images/cow-pasture-720.jpg 720w, images/cow-pasture-1280.jpg 1280w" sizes="(max-width: 680px) 100vw, 50vw" alt="A black-and-white dairy cow standing in a green pasture" width="1280" height="854" loading="lazy" decoding="async">
+        </picture>
+        <div class="visual-shade" aria-hidden="true"></div>
+      </div>
+      <div class="split-copy"><p class="eyebrow">A CONVERSATION, NOT A SALES PITCH</p><h2>Start with the challenge<br><em>you’re facing.</em></h2><p>Whether you are planning a dairy, reviewing an existing operation or trying to understand where costs are rising, the first step is a straightforward conversation about your situation.</p><ol class="steps"><li><span aria-hidden="true">01</span><div><b>Tell us about your farm</b><small>Your current setup, goals and main concerns.</small></div></li><li><span aria-hidden="true">02</span><div><b>Understand the options</b><small>Discuss what may be practical for your circumstances.</small></div></li><li><span aria-hidden="true">03</span><div><b>Agree the next step</b><small>Decide whether further consulting support is a good fit.</small></div></li></ol><a class="button button-dark" href="contact.html">Get in touch <span aria-hidden="true">→</span></a></div>
     </section>
 
-    <section class="profile-band"><div><p class="eyebrow">MEET THE CONSULTANT</p><h2>Shreekeshwar Singh</h2><p>Connect with the consultant and view his professional background on LinkedIn.</p></div><a class="button button-outline" href="https://in.linkedin.com/in/shreekeshwar-singh-71535311b" target="_blank" rel="noopener noreferrer">View LinkedIn profile <span aria-hidden="true">↗</span></a></section>
+    <section class="profile-band"><div><p class="eyebrow">MEET THE CONSULTANT</p><h2>Shreekeshwar Singh</h2><p>Connect with the consultant and view his professional background on LinkedIn.</p></div><a class="button button-outline" href="https://in.linkedin.com/in/shreekeshwar-singh-71535311b" target="_blank" rel="noopener noreferrer">View LinkedIn profile <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></section>
 
     <section class="final-cta"><p class="eyebrow">YOUR FARM. YOUR QUESTIONS. A PRACTICAL WAY FORWARD.</p><h2>Let’s talk about<br><em>what you want to improve.</em></h2><a class="button button-primary" href="contact.html">Start a conversation <span aria-hidden="true">→</span></a></section>
   </main>
 
-  <footer class="site-footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">A</span><span>Asha <b>Dairy Consulting</b></span></a><p>Practical dairy consulting · Pune, Maharashtra</p><div class="footer-bottom"><span>© <span data-year></span> Asha Dairy Consulting</span><div><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></div></footer>
-  <script src="script.js"></script>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html" aria-label="Asha Dairy Consulting home"><span class="brand-mark" aria-hidden="true">A</span><span>Asha <b>Dairy Consulting</b></span></a><p>Practical dairy consulting · Pune, Maharashtra</p><div class="footer-bottom"><span>© <span data-year></span> Asha Dairy Consulting</span><nav aria-label="Footer"><a href="about.html">About</a><a href="services.html">Services</a><a href="resources.html">Knowledge Centre</a><a href="contact.html">Contact</a></nav></div></footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
